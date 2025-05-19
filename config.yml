@@ -64,6 +64,27 @@ general:
   # Tempo máximo para iniciar um leilão
   # em segundos
   max-time: 21600
+  # Sistema de notificar o ganho de pontos (yDiscordHook)
+  discordhook:
+    enabled: true
+    channel: ''
+    # Placeholders disponíveis:
+    # {player}
+    # {item}
+    # {amount}
+    # {provider}
+    # {provider_abbreviated}
+    embed: ''
+  # Sistema de notificar o ganho de pontos em webhook
+  webhook:
+    enabled: true
+    # Placeholders disponíveis:
+    # {player}
+    # {item}
+    # {amount}
+    # {provider}
+    # {provider_abbreviated}
+    embed: 'new_item'
 
 # Sistema de blacklist
 black-list:
