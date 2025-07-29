@@ -26,6 +26,8 @@ economies:
     display: 'Dinheiro'
     # Formato abreviado
     abbreviated: 'coins'
+    # Símbolo para por nas mensagens
+    symbol: '$'
     # Permitir que comercializem na loja com o jogador offline
     allow-offline: true
     # Permissão para o usuário conseguir definir esta economia
